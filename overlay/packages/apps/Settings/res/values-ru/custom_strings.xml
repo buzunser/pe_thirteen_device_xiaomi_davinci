@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Battery light -->
+    <string name="battery_light_title">Включите индикатор во время зарядки</string>
+
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить выделение тепла устройством во время зарядки или продлить срок службы аккумулятора.</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Разрешить разблокировку лица на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
+
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Коснитесь отпечатка пальца, чтобы разблокировать</string>
+    <string name="fingerprint_wake_unlock_touch">Слушает события, когда экран выключен</string>
+    <string name="fingerprint_wake_unlock_press">Слушает события только после включения экрана</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Всегда включен при зарядке</string>
+    <string name="doze_on_charge_summary">Показывать экран дремоты все время при зарядке</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Проведите по экрану</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами, чтобы сделать скриншот</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Длительное нажатие на датчик отпечатков пальцев, чтобы разблокировать устройство</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Чтобы разбудить экран и разблокировать его, нажмите и удерживайте датчик отпечатков пальцев под дисплеем.</string>
+</resources>

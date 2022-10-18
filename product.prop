@@ -1,0 +1,50 @@
+# Set the Bluetooth Class of Device
+# Service Field: 0x5A -> 90
+#    Bit 17: Networking
+#    Bit 19: Capturing
+#    Bit 20: Object Transfer
+#    Bit 22: Telephony
+# MAJOR_CLASS: 0x02 -> 2 (Phone)
+# MINOR_CLASS: 0x0C -> 12 (Smart Phone)
+bluetooth.device.class_of_device=90,2,12
+
+# Set supported Bluetooth profiles to enabled
+bluetooth.hardware.power.operating_voltage_mv=3300
+bluetooth.profile.asha.central.enabled?=true
+bluetooth.profile.a2dp.source.enabled?=true
+bluetooth.profile.avrcp.target.enabled?=true
+bluetooth.profile.bas.client.enabled?=true
+bluetooth.profile.gatt.enabled?=true
+bluetooth.profile.hfp.ag.enabled?=true
+bluetooth.profile.hid.device.enabled?=true
+bluetooth.profile.hid.host.enabled?=true
+bluetooth.profile.map.server.enabled?=true
+bluetooth.profile.opp.enabled?=true
+bluetooth.profile.pan.nap.enabled?=true
+bluetooth.profile.pan.panu.enabled?=true
+bluetooth.profile.pbap.server.enabled?=true
+bluetooth.profile.sap.server.enabled?=true
+
+# App
+ro.launcher.blur.appLaunch=0
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
+# LMK
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+ro.lmk.kill_timeout_ms=50
+
+# IncrementalFS
+ro.incremental.enable=yes
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+
+# Shutdown
+ro.build.shutdown_timeout=2
