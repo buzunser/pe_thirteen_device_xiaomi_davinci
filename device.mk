@@ -196,11 +196,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
-# FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    qcom.fmradio
-
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
@@ -282,10 +277,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.davinci
-
-# LiveDisplay
-#PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.davinci
 
 # Media
 PRODUCT_PACKAGES += \
