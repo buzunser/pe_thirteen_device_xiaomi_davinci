@@ -19,5 +19,11 @@
 	
     <!-- Udfps vendor code -->
     <integer name="config_udfpsVendorCode">22</integer>
+
+    <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM
+            1 - LOCAL HBM
+    -->
+    <integer name="config_udfps_hbm_type">0</integer>
 	
 </resources>
