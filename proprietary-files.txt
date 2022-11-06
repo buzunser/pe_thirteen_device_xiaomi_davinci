@@ -939,6 +939,26 @@ vendor/etc/sensors/sns_reg_config|891e6e552b64c29b61744dd53ea373ea0ce0aa40
 -vendor/lib64/libsoc_helper.so|ab2a9e1b13c648002256979fd816e2c03c7ed9a2
 -vendor/lib64/libsoc_helper_jni.so|cd133b3e831655f0102f353fc147a505e2db3dd4
 
+# Snapdragon Computer Vision Engine
+-vendor/lib/libfastcvdsp_stub.so
+-vendor/lib/libfastcvopt.so
+-vendor/lib/libscveCommon.so
+-vendor/lib/libscveCommon_stub.so
+-vendor/lib/libscveObjectSegmentation.so
+-vendor/lib/libscveObjectSegmentation_stub.so
+-vendor/lib/libscveObjectTracker.so
+-vendor/lib/libscveObjectTracker_stub.so
+-vendor/lib64/libfastcvdsp_stub.so
+-vendor/lib64/libfastcvopt.so
+-vendor/lib64/libscveCommon.so
+-vendor/lib64/libscveCommon_stub.so
+-vendor/lib64/libscveObjectSegmentation.so
+-vendor/lib64/libscveObjectSegmentation_stub.so
+-vendor/lib64/libscveObjectTracker.so
+-vendor/lib64/libscveObjectTracker_stub.so
+-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
+-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+
 # Soter
 app/SoterService/SoterService.apk
 -vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
