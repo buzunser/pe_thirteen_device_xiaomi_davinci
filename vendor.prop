@@ -139,12 +139,11 @@ debug.sf.enable_gl_backpressure=1
 debug.sf.disable_client_composition_cache=1
 debug.sdm.support_writeback=0
 debug.sf.use_phase_offsets_as_durations=1
-debug.sf.late.sf.duration=10500000
-debug.sf.late.app.duration=20500000
-debug.sf.early.sf.duration=21000000
-debug.sf.early.app.duration=16500000
-debug.sf.earlyGl.sf.duration=13500000
-debug.sf.earlyGl.app.duration=21000000
+debug.sf.late.app.duration=16600000
+debug.sf.early.sf.duration=16600000
+debug.sf.early.app.duration=16600000
+debug.sf.earlyGl.sf.duration=16600000
+debug.sf.earlyGl.app.duration=16600000
 debug.sf.enable_egl_image_tracker=1
 debug.sf.enable_hwc_vds=0
 debug.sf.hw=0
@@ -176,6 +175,11 @@ vendor.gralloc.disable_ubwc=0
 vendor.display.enable_force_split=1
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+
+# Suspend properties
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
 
 # Fling
 ro.min.fling_velocity=160 
