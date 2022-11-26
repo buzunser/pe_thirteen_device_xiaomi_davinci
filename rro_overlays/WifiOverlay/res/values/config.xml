@@ -79,4 +79,7 @@
          scan and wake the host when a configured SSID is detected by the dongle. This chipset
          capability can provide power savings when wifi needs to be always kept on. -->
     <bool name="config_wifi_background_scan_support" translatable="false">true</bool>
+
+    <!-- Indicate the device support request channel on Wi-Fi Aware data-path. -->
+    <bool name="config_wifiSupportChannelOnDataPath" translatable="false">true</bool>
 </resources>
