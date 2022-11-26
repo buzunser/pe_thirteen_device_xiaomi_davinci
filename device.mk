@@ -486,6 +486,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf \
     DavinciWifiOverlay
 
+PRODUCT_PACKAGES += \
+    sensors.udfps
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
