@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUIGoogle
 
 # Quick Tap
 PRODUCT_PROPERTY_OVERRIDES += \
