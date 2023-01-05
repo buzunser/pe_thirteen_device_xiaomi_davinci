@@ -162,8 +162,12 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.columbus.model=tap7cls_coral.tflite
 
-# Dex
+
+# Dex/ART optimization
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+USE_DEX2OAT_DEBUG := false
 
 # Display
 PRODUCT_PACKAGES += \
@@ -488,6 +492,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     sensors.udfps
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
