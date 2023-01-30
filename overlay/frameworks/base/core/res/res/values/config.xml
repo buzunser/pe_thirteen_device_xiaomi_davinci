@@ -718,5 +718,8 @@
 
     <!-- Whether or not wcg mode should be enabled on this device -->
     <bool name="config_enableWcgMode">true</bool>
+
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
     	
 </resources>
