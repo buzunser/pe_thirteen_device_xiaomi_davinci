@@ -204,7 +204,8 @@ TARGET_SCREEN_DENSITY := 420
 # SELinux
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 TARGET_SEPOLICY_DIR := msmsteppe
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+#include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 #SELINUX_IGNORE_NEVERALLOWS := true
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
