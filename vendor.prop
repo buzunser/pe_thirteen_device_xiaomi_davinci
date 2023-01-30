@@ -101,8 +101,7 @@ vendor.qcom.bluetooth.soc=cherokee
 camera.disable_zsl_mode=1
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
-ro.soc.model=SM6150
+ro.soc.manufacturer=QTI
 
 # Dalvik
 dalvik.vm.systemuicompilerfilter=speed
@@ -129,11 +128,6 @@ pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
 pm.dexopt.boot=verify
 pm.dexopt.install=speed-profile
-dalvik.vm.image-dex2oat-filter=speed
-dalvik.vm.image-dex2oat-threads=8
-dalvik.vm.dex2oat-filter=speed
-dalvik.vm.dex2oat-threads=8
-dalvik.vm.dex2oat64.enabled=true
 
 # DPM
 persist.vendor.dpm.feature=1
