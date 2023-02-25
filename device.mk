@@ -156,7 +156,8 @@ PRODUCT_PACKAGES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUIGoogle
+    SystemUIGoogle \
+    NexusLauncherRelease
 
 # Quick Tap
 PRODUCT_PROPERTY_OVERRIDES += \
