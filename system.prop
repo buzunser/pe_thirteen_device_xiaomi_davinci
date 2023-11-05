@@ -19,6 +19,18 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
+# Camera
+persist.vendor.camera.privapp.list=com.android.camera
+vendor.camera.sat.fallback.dist=40
+vendor.camera.sat.fallback.dist.d=10
+vendor.camera.sat.fallback.luxindex=330
+vendor.camera.sat.fallback.lux.d=50
+vendor.camera.enableNCSService=TRUE
+vendor.camera.enableTOFInterface=TRUE
+
+# GPS
+persist.vendor.overlay.izat.optin=rro
+
 # RCS
 persist.rcs.supported=1
 
@@ -47,8 +59,24 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
+# RmNet Data
+persist.data.df.dl_mode=5
+persist.data.df.ul_mode=5
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.mux_count=8
+persist.data.df.iwlan_mux=9
+
 # Recovery
 ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+config.disable_rtt=true
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
